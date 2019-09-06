@@ -1,0 +1,15 @@
+How to use
+---------
+
+After extracting, you can navigate into them in your command prompt/ terminal (via the "cd" command) and run
+- 'npm install'
+- 'npm start'
+
+After installing the packages, please install the following additional packages
+- 'npm install --save redux react-redux react-navigation react-navigation-header-buttons'
+
+After this, please install following libraries
+
+- 'npm install -g expo-cli', use 'sudo npm install -g expo-cli' command if you have access denied problem.
+- 'expo install react-native-gesture-handler react-native-reanimated'
+The motivation for building this library was to address the performance limitations of React Native's Gesture Responder System and to provide more control over the built-in native components that can handle gestures.
